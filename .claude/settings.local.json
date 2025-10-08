@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(curl -X POST \"http://localhost:9001/auth\" -H \"Content-Type: application/x-www-form-urlencoded\" -d \"email=test@example.com\")",
+      "Bash(pip install:*)",
+      "Bash(\"C:/Program Files/Python310/python.exe\" -m pip install -r requirements.txt)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
